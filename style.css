@@ -1,0 +1,21 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-container {
+    width: 50%;   /* or any other proportion */
+    height: auto;
+    text-align: center; /* Center SVG horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center SVG vertically */
+}
+
+svg {
+    width: 100%;  /* Scale SVG to fit its container */
+    height: auto;
+}
